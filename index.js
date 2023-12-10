@@ -21,7 +21,7 @@ const connect_to_database = async() => {
     }
 }
 
-connect_to_database();
+connect_to_database();//connecting to database
 
 app.use("/api", router);
 
